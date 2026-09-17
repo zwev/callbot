@@ -22,6 +22,7 @@ from pipecat.runner.utils import create_transport
 from pipecat.services.deepgram.tts import DeepgramTTSService
 from pipecat.services.deepgram.stt import DeepgramSTTService
 from pipecat.services.google.llm import GoogleLLMService
+from pipecat.services.ollama.llm import OLLamaLLMService
 from pipecat.transports.base_transport import BaseTransport
 from pipecat.transports.websocket.fastapi import FastAPIWebsocketParams
 from pipecat.workers.runner import WorkerRunner
@@ -33,19 +34,22 @@ logger.add(sys.stderr, level="DEBUG")
 
 
 async def run_bot(transport: BaseTransport, handle_sigint: bool):
-    llm = GoogleLLMService(
-        api_key=os.getenv("GOOGLE_API_KEY"),
-        settings=GoogleLLMService.Settings(
-            system_instruction="You are a friendly assistant making an outbound phone call. Your responses will be read aloud, so keep them concise and conversational. Avoid special characters or formatting. Begin by politely greeting the person and explaining why you're calling.",
-        ),
-    )
+
+    llm = OLLamaLLMService(settings=OLLamaLLMService.Settings(model="gemma3:latest"))
+
+    #llm = GoogleLLMService(
+    #    api_key=os.getenv("GOOGLE_API_KEY"),
+    #    settings=GoogleLLMService.Settings(
+    #        system_instruction="You are a friendly assistant making an outbound phone call. Your responses will be read aloud, so keep them concise and conversational. Avoid special characters or formatting. Begin by politely greeting the person and explaining why you're calling.",
+    #    ),
+    #)
 
     stt = DeepgramSTTService(api_key=os.getenv("DEEPGRAM_API_KEY"))
 
     tts = DeepgramTTSService(
         api_key=os.getenv("DEEPGRAM_API_KEY"),
         settings=DeepgramTTSService.Settings(
-            voice="71a7ad14-091c-4e8e-a314-022ece01c121",  # British Reading Lady
+            voice="aura-2-asteria-en",  # British Reading Lady
         ),
     )
 
