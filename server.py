@@ -20,7 +20,8 @@ from loguru import logger
 
 from server_utils import (
     DialoutResponse,
-    dialout_request_from_request,
+    DialoutRequest,
+    Scenario,
     generate_twiml,
     make_twilio_call,
     parse_twiml_request,
@@ -31,9 +32,11 @@ load_dotenv(override=True)
 
 app = FastAPI()
 
+pending_scenarios: dict[str, Scenario] = {}
 
 @app.post("/dialout", response_model=DialoutResponse)
-async def handle_dialout_request(request: Request) -> DialoutResponse:
+async def handle_dialout_request(req: DialoutRequest):
+    logger.info(f"Dialout: {req.scenario.name} -> {req.to_number}")
     """Handle outbound call request and initiate call via Twilio.
 
     Args:
@@ -45,11 +48,11 @@ async def handle_dialout_request(request: Request) -> DialoutResponse:
     Raises:
         HTTPException: If request data is invalid or missing required fields.
     """
-    logger.info("Received outbound call request")
+    #logger.info("Received outbound call request")
 
-    dialout_request = await dialout_request_from_request(request)
 
-    call_result = await make_twilio_call(dialout_request)
+    call_result = await make_twilio_call(req)
+    pending_scenarios[call_result.call_sid] = req.scenario
 
     return DialoutResponse(
         call_sid=call_result.call_sid,

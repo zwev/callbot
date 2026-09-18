@@ -26,6 +26,8 @@ from pipecat.services.ollama.llm import OLLamaLLMService
 from pipecat.transports.base_transport import BaseTransport
 from pipecat.transports.websocket.fastapi import FastAPIWebsocketParams
 from pipecat.workers.runner import WorkerRunner
+from server_utils import Scenario
+from persona import build_system_prompt
 
 load_dotenv(override=True)
 
@@ -51,7 +53,7 @@ async def run_bot(transport: BaseTransport, handle_sigint: bool):
         settings=DeepgramTTSService.Settings(
             voice="aura-2-asteria-en",  # British Reading Lady
         ),
-    )
+    ) 
 
     context = LLMContext()
     user_aggregator, assistant_aggregator = LLMContextAggregatorPair(

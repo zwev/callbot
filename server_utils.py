@@ -11,6 +11,19 @@ from loguru import logger
 from pydantic import BaseModel
 from twilio.rest import Client as TwilioClient
 from twilio.twiml.voice_response import Connect, Stream, VoiceResponse
+from pydantic import BaseModel, Field
+
+E164 = r"^\+[1-9]\d{7,14}$"
+
+class Scenario(BaseModel):
+    name: str
+    patient_name: str
+    patient_dob: str
+    goal: str
+    tactics: list[str] = []
+    opening: str
+    success: str
+    max_turns: int = 16
 
 
 class DialoutRequest(BaseModel):
@@ -24,8 +37,9 @@ class DialoutRequest(BaseModel):
         from_number (str): The Twilio phone number to call from (E.164 format).
     """
 
-    to_number: str
-    from_number: str
+    to_number: str = Field(pattern=E164)
+    from_number: str = Field(pattern=E164)
+    scenario: Scenario
 
 
 class TwilioCallResult(BaseModel):
