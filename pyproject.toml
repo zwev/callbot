@@ -5,9 +5,10 @@ description = "Twilio dial-out example for Pipecat"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+  "dotenv>=0.9.9",
   "pipecat-ai[websocket,google,silero,deepgram,runner]>=1.8.0",
   "pipecatcloud>=1.2.0",
-  "twilio"
+  "twilio",
 ]
 
 [dependency-groups]

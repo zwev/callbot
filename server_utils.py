@@ -15,16 +15,19 @@ from pydantic import BaseModel, Field
 
 E164 = r"^\+[1-9]\d{7,14}$"
 
+
 class Scenario(BaseModel):
     name: str
     patient_name: str
     patient_dob: str
     goal: str
-    tactics: list[str] = []
     opening: str
     success: str
+    tactics: list[str] = []
+    facts: dict[str, str] = {}
     max_turns: int = 16
 
+pending_scenarios: dict[str, Scenario] = {}
 
 class DialoutRequest(BaseModel):
     """Request data for initiating a dial-out call.

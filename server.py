@@ -21,7 +21,7 @@ from loguru import logger
 from server_utils import (
     DialoutResponse,
     DialoutRequest,
-    Scenario,
+    pending_scenarios,
     generate_twiml,
     make_twilio_call,
     parse_twiml_request,
@@ -31,8 +31,6 @@ load_dotenv(override=True)
 
 
 app = FastAPI()
-
-pending_scenarios: dict[str, Scenario] = {}
 
 @app.post("/dialout", response_model=DialoutResponse)
 async def handle_dialout_request(req: DialoutRequest):
