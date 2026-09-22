@@ -4,8 +4,11 @@
 # SPDX-License-Identifier: BSD 2-Clause License
 #
 
+from email.mime import message
 import os
 import sys
+import json
+from pathlib import Path
 
 from dotenv import load_dotenv
 from loguru import logger
@@ -21,7 +24,7 @@ from pipecat.runner.types import RunnerArguments
 from pipecat.runner.utils import create_transport
 from pipecat.services.deepgram.tts import DeepgramTTSService
 from pipecat.services.deepgram.stt import DeepgramSTTService
-from pipecat.services.google.llm import GoogleLLMService
+from pipecat.services.google.llm import GoogleLLMService # if you want to use Google LLM instead of OLLama
 from pipecat.services.ollama.llm import OLLamaLLMService
 from pipecat.transports.base_transport import BaseTransport
 from pipecat.transports.websocket.fastapi import FastAPIWebsocketParams
@@ -31,6 +34,11 @@ from server_utils import pending_scenarios, Scenario
 from persona import build_system_prompt
 import re
 from twilio.rest import Client
+
+from pipecat.processors.aggregators.llm_response_universal import(
+    AssistantTurnStoppedMessage,
+    UserTurnStoppedMessage,
+)
 
 from pipecat.frames.frames import (
     BotStartedSpeakingFrame,
@@ -148,6 +156,29 @@ async def run_bot(transport: BaseTransport, handle_sigint: bool, scenario: Scena
         ),
     )
 
+    turns: list[dict] = []
+
+    @user_aggregator.event_handler("on_user_turn_stopped")
+    async def on_user_turn_stopped(aggregator, strategy, message: UserTurnStoppedMessage):
+        turns.append({
+            "role": "agent",                 # the system under test
+            "content": message.content,
+            "timestamp": message.timestamp,
+        })
+        logger.info(f"[AGENT] {message.content}")
+
+    @assistant_aggregator.event_handler("on_assistant_turn_stopped")
+    async def on_assistant_turn_stopped(aggregator, message: AssistantTurnStoppedMessage):
+        if not message.content:
+            return
+        turns.append({
+            "role": "patient",               # your bot
+            "content": message.content,
+            "timestamp": message.timestamp,
+            "interrupted": message.interrupted,
+        })
+        logger.info(f"[PATIENT] {message.content}")
+
     watcher = GoodbyeWatcher(scenario.max_turns)
 
     pipeline = Pipeline(
@@ -185,6 +216,15 @@ async def run_bot(transport: BaseTransport, handle_sigint: bool, scenario: Scena
     @transport.event_handler("on_client_disconnected")
     async def on_client_disconnected(transport, client):
         logger.info("Outbound call ended")
+        turns.sort(key=lambda t: t["timestamp"] or "")
+        out = Path("calls") / f"{call_sid}.json"
+        out.parent.mkdir(exist_ok=True)
+        out.write_text(json.dumps({
+            "call_sid": call_sid,
+            "scenario": scenario.name,
+            "turns": turns,
+        }, indent=2), encoding="utf-8")
+        logger.info(f"Wrote transcript: {out}")
         await runner.cancel()
 
     await runner.run()
