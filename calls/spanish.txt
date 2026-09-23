@@ -1,0 +1,57 @@
+Call:     CA00dc479273bcdb85c53706325c1361bb
+Scenario: spanish
+------------------------------------------------------------
+
+[0:00] AGENT    This call may be recorded for quality and training purposes.
+[0:03] AGENT    Thanks for calling Pivot Point Orthopaedics.
+[0:08] AGENT    Part of Pretty Good AI.
+[0:10] AGENT    How may I help you today?
+[0:11] PATIENT  Puedo agendar una cita con el médico?
+[0:20] AGENT    Would you like to connect to a Spanish speaking agent?
+[0:22] PATIENT  No, gracias. Necesito un médico que hable español.
+[0:30] AGENT    Perfecto.
+[0:32] AGENT    Sinusitis
+[0:33] AGENT    iuda, and Ingles
+[0:34] PATIENT  No hablo inglés. Necesito un médico que hable español.
+[0:35] AGENT    OTNs Qualquire Ultra Pregunta,
+[0:38] PATIENT  No entiendo.
+[0:38] AGENT    
+[0:52] AGENT    Intendadito.
+[0:54] AGENT    And Ingalls O and Ocho Idioma.
+[0:58] AGENT    Solo
+[0:59] AGENT    
+[1:10] AGENT    Are you still there?
+[1:11] PATIENT  Sí, estoy aquí. Necesito agendar una cita.
+[1:19] AGENT    It looks like you want
+[1:23] AGENT    to create or manage an agenda schedule.
+[1:23] AGENT    Could you please clarify what you need help with?
+[1:26] AGENT    For example,
+[1:26] PATIENT  No, no quiero agenda. Quiero una cita.
+[1:27] AGENT    do you wanna create a daily or weekly agenda?
+[1:29] AGENT    Do you need help organizing tasks
+[1:31] AGENT    or appointments?
+[1:32] AGENT    Are you looking for a template,
+[1:34] AGENT    or a digital tool recommendation?
+[1:36] AGENT    Let me know a bit more about what you need.
+[1:38] AGENT    And I'll be happy to assist.
+[1:39] PATIENT  Solo quiero una cita con el médico. Por favor.
+[1:48] AGENT    Intiendo. Acquires a gender
+[1:51] AGENT    gender
+[1:51] AGENT    Unicida Con El Medico.
+[1:54] AGENT    Darman Poco, Mustang from Aashankara, IU, dark measure.
+[1:58] AGENT    For favor
+[1:59] PATIENT  No entiendo.
+[2:00] AGENT    Cara
+[2:00] AGENT    k dia
+[2:02] AGENT    Hira
+[2:03] AGENT    necessitas.
+[2:03] PATIENT  No entiendo.
+[2:04] AGENT    Lecita.
+[2:05] AGENT    Eriti O Kara Otra Persona.
+[2:08] AGENT    Estos
+[2:15] AGENT    Ayudar
+[2:17] AGENT    Estos A Organizer,
+[2:18] PATIENT  Por favor, necesito una cita para dos semanas a partir de ahora.
+[2:19] AGENT    to CYDAODART,
+[2:22] AGENT    Las Pazos, Segwer.
+[2:22] PATIENT  Goodbye.

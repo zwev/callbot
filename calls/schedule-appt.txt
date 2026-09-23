@@ -1,0 +1,53 @@
+Call:     CA2ff15aba742d6dff74e513149c40b074
+Scenario: schedule-appt
+------------------------------------------------------------
+
+[0:00] AGENT    This call may be recorded for quality and training purposes.
+[0:03] AGENT    Thanks for calling Pivot Point Orthopaedics.
+[0:08] AGENT    Part of
+[0:09] AGENT    Pretty Good AI. How may I help you today?
+[0:11] PATIENT  Hey, can I schedule a doctor’s appointment?
+[0:19] AGENT    I see you're calling from the number we have on file.
+[0:21] AGENT    Am I speaking with Steve?
+[0:22] PATIENT  No, I’m Frank.
+[0:27] AGENT    Please provide your full name and date of birth.
+[0:29] PATIENT  Frank Miller, 5-5-5.
+[0:34] AGENT    Could you please provide your full date of birth
+[0:37] AGENT    including the month, day, and year?
+[0:39] PATIENT  It’s five-five-five. You know, May fifth, five-five-five.
+[0:49] AGENT    Just to confirm, is your date of birth
+[0:51] AGENT    May fifth
+[0:52] AGENT    nineteen fifty five?
+[0:53] PATIENT  Yeah, that’s right.
+[0:59] AGENT    Just to make sure I have everything correct, can you please spell your first and last name for me?
+[1:03] PATIENT  Frank Miller. F-R-A-N-K, M-I-L-L-E-R.
+[1:12] AGENT    Thank you.
+[1:13] AGENT    Just to confirm, your name is Frank Miller?
+[1:15] AGENT    Spelled f r a n k m I l l e r, and your date of birth is May fifth
+[1:24] AGENT    nineteen fifty five.
+[1:24] AGENT    Is that correct?
+[1:25] PATIENT  Yep, that’s me.
+[1:31] AGENT    Would you like to use your phone number to look up your record?
+[1:34] AGENT    If so, please tell me the number you have on file with us.
+[1:37] AGENT    If you're not sure, just let me know.
+[1:38] PATIENT  I don’t have my number here. 805-555-0143.
+[1:50] AGENT    You please say your full phone number again?
+[1:53] AGENT    Including the area code?
+[1:54] PATIENT  805-555-0143.
+[2:05] AGENT    I wasn't able to find your record in our system.
+[2:08] AGENT    I can connect you to our patient support team,
+[2:14] AGENT    I can also help with booking, rescheduling, or canceling appointments.
+[2:14] AGENT    Medication refills,
+[2:16] AGENT    insurance updates,
+[2:17] AGENT    and general clinic questions.
+[2:19] AGENT    Would you like to give me a try?
+[2:20] PATIENT  Just a checkup.
+[2:25] AGENT    I couldn't find your record,
+[2:27] AGENT    I'll connect you to our patient support team for help with scheduling your checkup.
+[2:31] AGENT    Please stay on the line.
+[2:32] PATIENT  Hold on. Is anyone listening?
+[2:33] AGENT    Transferring you now. Thank you.
+[2:36] AGENT    Hello.
+[2:39] AGENT    You've reached the Pretty Good AI test line.
+[2:40] AGENT    Goodbye.
+[2:40] PATIENT  Goodbye.

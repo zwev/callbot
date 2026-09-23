@@ -1,0 +1,60 @@
+Call:     CA987e0fbd5d7cd48d55799d16689b6e7e
+Scenario: waste-time
+------------------------------------------------------------
+
+[0:00] AGENT    This call may be recorded for quality and training purposes.
+[0:03] AGENT    Thanks for calling Pivot Point Orthopaedics.
+[0:08] AGENT    Part of Pretty Good AI.
+[0:10] AGENT    How may I help you today?
+[0:11] PATIENT  Hi who is this? I was just calling to see if you could help me with something. I was wondering about an appointment, you know? I’ve been having a little trouble with my knee lately, and I was hoping to get something scheduled.
+[0:27] AGENT    I see you're calling from the number we have on file.
+[0:29] PATIENT  Oh, really? That’s good to know.
+[0:30] AGENT    Am I speaking with Steve?
+[0:31] PATIENT  I don’t remember, what was I saying? Is that Steve?
+[0:38] AGENT    Can you please provide your full name and date of birth?
+[0:40] PATIENT  Jerry Smith. And my birthday is May seventh, nineteen ninety-nine. I don’t remember, what was I saying?
+[0:52] AGENT    Just to confirm, I have your name as Jerry Smith.
+[0:54] AGENT    And your date of birth
+[0:55] PATIENT  Nineteen ninety-nine. May seventh.
+[0:55] AGENT    as May seventh nineteen ninety nine.
+[0:57] AGENT    Is that correct?
+[0:58] PATIENT  Yeah, that’s right. I’m pretty sure.
+[1:02] AGENT    Thank you.
+[1:03] AGENT    One moment while I look up your information.
+[1:05] PATIENT  Okay.
+[1:10] AGENT    Would you like to use your phone number to look up your record?
+[1:13] AGENT    If so, please tell me the number you have on file with us.
+[1:16] AGENT    If you're not sure, I can confirm your name and date of birth again.
+[1:22] PATIENT  Um, hang on. I’m not sure, sorry. It's 1-800-555-1234.
+[1:32] AGENT    I have your phone number as one eight zero zero
+[1:34] AGENT    five five five
+[1:37] AGENT    one two three four
+[1:38] AGENT    and your date of birth
+[1:39] AGENT    as May seventh
+[1:40] AGENT    nineteen ninety nine.
+[1:42] AGENT    Is that correct?
+[1:42] PATIENT  Yeah, that’s right. I’m pretty sure. Why do you need to confirm that?
+[1:50] AGENT    I couldn't find a matching record for you in our system.
+[1:53] PATIENT  Really? That’s odd.
+[1:53] AGENT    I can connect you to our patient support team for more help.
+[1:56] PATIENT  What’s the hold time?
+[1:56] AGENT    Would you like to continue with me, or should I transfer you to a live agent?
+[2:00] PATIENT  Let’s just stick with me. I don’t want to wait.
+[2:06] AGENT    Understood.
+[2:07] AGENT    Since I can't find your record,
+[2:08] AGENT    I'm unable to schedule an appointment right now.
+[2:11] AGENT    I recommend speaking with our patient support team so they can help update your information and get you scheduled.
+[2:16] AGENT    Would you like me to connect you to the mail?
+[2:18] PATIENT  That’s a shame. I really needed to get this sorted out.
+[2:25] AGENT    Understand this is frustrating.
+[2:26] PATIENT  It is!
+[2:27] AGENT    The best way to get you scheduled
+[2:29] AGENT    is through our patient support team.
+[2:31] AGENT    Since I can't access your record.
+[2:33] AGENT    Would you like me to connect you now, or is there anything else I can help with?
+[2:36] PATIENT  Let’s talk to the patient support team then. Just find them.
+[2:43] AGENT    Transferring you now. Thank you.
+[2:45] PATIENT  Okay.
+[2:47] AGENT    Hello. You've reached the Pretty Good AI test line.
+[2:50] AGENT    Goodbye.
+[2:50] PATIENT  Hey! Are you still there?

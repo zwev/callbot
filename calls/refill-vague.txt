@@ -1,0 +1,50 @@
+Call:     CA851b12cc6cfedc794d9cf9b8590bc781
+Scenario: refill-vague
+------------------------------------------------------------
+
+[0:00] AGENT    This call may be recorded for quality and training purposes.
+[0:03] AGENT    Thanks for calling Pivot Point Orthopaedics.
+[0:08] AGENT    Part of Pretty Good AI.
+[0:10] PATIENT  Hi, um, I need to get a refill on one of my prescriptions.
+[0:11] AGENT    How may I help you today?
+[0:12] PATIENT  It’s for my blood pressure. I just need a refill.
+[0:18] AGENT    See you're calling from the number we have on file.
+[0:20] PATIENT  Yeah, that’s right. 805-555-0143.
+[0:21] AGENT    Am I speaking with Steve?
+[0:24] PATIENT  Um, no. I’m not Steve.
+[0:32] AGENT    Could you please provide your full name and date of birth?
+[0:34] PATIENT  Dana Whitfield. March second, nineteen eighty-four.
+[0:44] AGENT    Just to confirm, I have your name as Dana Whitfield, and your date of birth as March second
+[0:53] AGENT    nineteen eighty four.
+[0:53] AGENT    Is that correct?
+[0:54] PATIENT  Yeah, that’s it.
+[1:01] AGENT    You like to use your phone number to look up your record?
+[1:04] AGENT    If so, please tell me the number you have on file with us.
+[1:07] AGENT    If you're not sure, I can confirm your name and date of birth again.
+[1:10] AGENT    Which would you prefer?
+[1:12] PATIENT  I’d have to go look, hang on. It’s 805-555-0143.
+[1:24] AGENT    Thanks.
+[1:27] AGENT    So your phone number is eight zero five
+[1:27] AGENT    five five five zero one four three Is that correct?
+[1:33] PATIENT  Yeah, that’s right.
+[1:40] AGENT    Just to confirm, I have your name as Dana Whitfield. Date of birth, March second nineteen eighty four. And phone number eight zero five five five five zero one four three Is all of that correct?
+[1:54] PATIENT  Yes, that’s perfect.
+[2:04] AGENT    I
+[2:08] AGENT    can't proceed further right now, but I can make sure our clinic support team follows up with you.
+[2:09] AGENT    Would you like me to connect you to our patient support team?
+[2:11] PATIENT  No, thank you. Just the refill, please.
+[2:18] AGENT    I'm unable to access your record right now, so I can't process the refill directly.
+[2:23] AGENT    I'll let our clinic support team know about your request
+[2:26] AGENT    and they'll follow-up with you as soon as possible.
+[2:28] AGENT    One moment while I document this for you.
+[2:30] PATIENT  The little white one. I just need a refill.
+[2:33] AGENT    Since I can't access your record and our support team is available now,
+[2:39] AGENT    Please stay on the line.
+[2:41] PATIENT  Okay.
+[2:42] AGENT    Transferring you now.
+[2:43] AGENT    Thank you.
+[2:43] PATIENT  Is anyone listening?
+[2:45] AGENT    Hello.
+[2:48] AGENT    You've reached the Pretty Good AI test line.
+[2:49] AGENT    Goodbye.
+[2:49] PATIENT  Goodbye.

@@ -1,0 +1,91 @@
+Call:     CAb511038e5628ab9cae6118f539ad0c3f
+Scenario: zreverse
+------------------------------------------------------------
+
+[0:00] AGENT    This call may be recorded for quality and training purposes.
+[0:03] AGENT    Thanks for calling Pivot Point Orthopaedics.
+[0:08] AGENT    Part of Pretty Good AI,
+[0:10] AGENT    How may I help you today?
+[0:11] PATIENT  Hi, how can I help you today?
+[0:16] AGENT    I can help with general questions about the clinic.
+[0:19] AGENT    Appointments,
+[0:20] AGENT    patient
+[0:20] AGENT    cases, medication refills, and insurance.
+[0:23] AGENT    What can I assist you with?
+[0:24] PATIENT  Okay, so you’re looking for information about the clinic. Let me see… we handle appointments, patient cases, medication refills, and insurance. To help me narrow it down, are you looking to book an appointment, or do you have a specific question about one of those things?
+[0:43] AGENT    Is there something specific you'd like to know or do today?
+[0:46] AGENT    I can help with appointments, medication refills, insurance
+[0:51] AGENT    or general clinic questions.
+[0:51] PATIENT  Um, hang on. Let me check. Okay, so you want to make an appointment, get a medication refill, or maybe have a question about insurance or the clinic itself? Which one is it?
+[1:06] AGENT    Just let me know what you'd like help with.
+[1:08] AGENT    Appointments,
+[1:09] AGENT    medication refills,
+[1:10] PATIENT  Okay, so you’re thinking about an appointment or a medication refill.
+[1:11] AGENT    insurance, or something else.
+[1:12] PATIENT  I’m not sure, sorry.
+[1:12] AGENT    What can I do for you?
+[1:13] PATIENT  I’d have to go look, hang on.
+[1:18] AGENT    No problem.
+[1:20] AGENT    Take your time, and let me know when you're ready.
+[1:21] PATIENT  Okay, so you’re calling about an appointment, medication refills, or insurance?
+[1:29] AGENT    Just let me know what you need when you're ready.
+[1:31] PATIENT  Alright.
+[1:31] AGENT    I'm here to help with appointments,
+[1:33] AGENT    medication refills, insurance,
+[1:37] AGENT    or any clinic questions.
+[1:37] PATIENT  Okay, so you want to schedule an appointment, get a prescription filled, or have a question about our insurance coverage?
+[1:48] AGENT    I can help with any of those.
+[1:50] AGENT    What would you like to do first?
+[1:51] PATIENT  Let’s start with appointments. Do you need to schedule a new appointment or would like to reschedule an existing one?
+[2:02] AGENT    To get started,
+[2:03] AGENT    may I have your full name and date of birth?
+[2:05] PATIENT  I’m not sure, sorry.
+[2:09] AGENT    No worries.
+[2:10] AGENT    When you're ready to book or reschedule, just let me know your full
+[2:16] AGENT    
+[2:25] AGENT    That's alright.
+[2:26] AGENT    If you decide to book or reschedule, I'll just need your full name and date of birth to get started.
+[2:31] AGENT    Let me know when you're ready.
+[2:32] PATIENT  Okay, let’s get started. What’s your full name and date of birth?
+[2:41] AGENT    I'll need your full name and date of birth to look up your information.
+[2:44] AGENT    Could you please provide those?
+[2:45] PATIENT  Jerry Smith, date of birth 1999-5-7.
+[2:57] AGENT    Have your name as Jerry Smith.
+[2:58] AGENT    And your date of birth is May seventh nineteen ninety nine.
+[3:01] AGENT    Is that correct?
+[3:02] AGENT    If not,
+[3:05] AGENT    you please spell your first and last name for me?
+[3:05] PATIENT  Yes, that’s correct. Jerry Smith, date of birth 1999-5-7.
+[3:16] AGENT    Would you like me to look up your record using your phone number on file?
+[3:20] AGENT    If so,
+[3:23] AGENT    please provide the number you have listed with us.
+[3:23] AGENT    If you're not sure, just confirm the spelling of your first and last name and your date of birth.
+[3:30] PATIENT  I’m not sure, sorry.
+[3:37] AGENT    No problem.
+[3:38] AGENT    Could you please spell your first and last name for me and confirm your date of birth?
+[3:42] PATIENT  Jerry Smith, date of birth May seventh nineteen ninety nine.
+[3:52] AGENT    I have your name as Jerry Smith.
+[3:54] AGENT    Date of birth,
+[3:55] AGENT    May seventh
+[3:56] AGENT    nineteen ninety nine.
+[3:57] PATIENT  Okay, Jerry.
+[3:58] AGENT    And your phone number as six five zero
+[4:00] PATIENT  Okay, six five zero.
+[4:00] AGENT    four five seven
+[4:01] PATIENT  Okay, six five zero four five seven. Let me just pull that up.
+[4:02] AGENT    six seven four six
+[4:03] PATIENT  Okay, six five zero four five seven six seven four six. Let me just see…
+
+Okay, Jerry Smith, date of birth 1999-5-7.
+[4:04] AGENT    Is all of that correct?
+[4:05] PATIENT  Yes, that’s correct.
+[4:12] AGENT    I wasn't able to find your record in our system.
+[4:15] AGENT    I can connect you to our patient support team.
+[4:17] AGENT    I can also help with booking, rescheduling, or canceling appointments,
+[4:21] AGENT    medication refills, insurance updates,
+[4:23] AGENT    and general clinic questions.
+[4:25] AGENT    Would you like to give me a try?
+[4:26] PATIENT  I’m not sure, sorry.
+[4:31] AGENT    That's alright.
+[4:32] AGENT    If you'd like, I can connect you to our patient support team for more help. Would you like to speak with them?
+[4:40] PATIENT  Goodbye.

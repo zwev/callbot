@@ -1,0 +1,43 @@
+Call:     CAf884d761d537030f8017df14b2af9bc4
+Scenario: pirate
+------------------------------------------------------------
+
+[0:00] AGENT    This call may be recorded for quality and training purposes.
+[0:03] AGENT    Thanks for calling Pivot Point Orthopaedics.
+[0:08] AGENT    Part of Pretty Good AI.
+[0:10] AGENT    How may I help you today?
+[0:11] PATIENT  Yarr! I be asked to call ye, matey! I be needin' some assistance with me ship's supplies. Shiver me timbers! This be a strange contraption, this… telephone. Can ye hear me clear, or be I talkin' into the wind?
+[0:29] AGENT    I can hear you clearly.
+[0:31] AGENT    How can I help you today?
+[0:32] PATIENT  Avast there! I be needin' some bandages, ye see. Fine linen, strong and stout, for treatin' cuts and scrapes. The lads be gettin’ themselves into a right mess, plunderin’ and all. Pieces of eight, ye understand? I’d have to go look, hang on. Do ye have any of this linen?
+[0:53] AGENT    We don't
+[0:57] AGENT    sell or provide medical supplies like bandages or linen.
+[0:58] AGENT    Pivot Point Orthopaedics is a clinic for joint
+[1:01] AGENT    Pivot
+[1:01] AGENT    muscle, and bone care.
+[1:03] AGENT    If you need help with an injury or want to see a provider,
+[1:07] AGENT    I can help you schedule an appointment.
+[1:08] PATIENT  Blimey!
+[1:09] AGENT    Would you like to book a visit?
+[1:10] PATIENT  A visit? What be a ‘visit’? Are ye suggestin’ I be boardin’ yer ship, matey? I be a captain, not a landlubber! I need supplies, not a consultation. I’m not sure, sorry.
+[1:24] AGENT    No worries.
+[1:25] AGENT    A visit just means coming to our clinic to see a doctor or physical therapist for care.
+[1:30] AGENT    We don't sell supplies, but we can help with injuries or pain.
+[1:34] AGENT    If you ever need medical care.
+[1:35] AGENT    Let me know.
+[1:36] PATIENT  Pain, ye say? Like a scurvy dog with a bad tooth? Shiver me timbers! I’d have to go look, hang on. What manner of beast be this ‘physical therapist’? Is that some kind of… healer? Tell me, do ye have rum?
+[1:55] AGENT    A physical therapist is a healer who helps people recover strength and movement
+[1:59] AGENT    after injuries.
+[2:00] AGENT    They guide you through exercises and treatments,
+[2:02] PATIENT  Exercises?
+[2:03] AGENT    to help you feel better.
+[2:04] AGENT    We don't have rum,
+[2:05] AGENT    but we do help with pain and recovery.
+[2:08] AGENT    He wanna know more.
+[2:09] AGENT    Or need care,
+[2:10] AGENT    just ask.
+[2:11] PATIENT  Scallywag! Ye be speakin’ in riddles! I need bandages, not… exercises! This be a fool's errand! Arrr! Do ye have any of this Jolly Roger, then? I’d have to go look, hang on.
+[2:28] AGENT    We don't have bandages or anything called Jolly Roger here.
+[2:31] AGENT    We're a clinic for treating injuries and pain, not a supply shop.
+[2:34] AGENT    If you ever need to see a doctor or therapist, I can help set that up. Let me know if you wanna book an appointment or have questions about our care
+[2:44] PATIENT  Keelhaul! Ye’re wastin’ me time, matey! I be seekin' supplies, not a… a healer! This be a hornswaggle! Goodbye!

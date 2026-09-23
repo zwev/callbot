@@ -1,0 +1,38 @@
+Call:     CA96d95eef7ba52ee1ce48464de7196c6c
+Scenario: cancel
+------------------------------------------------------------
+
+[0:00] AGENT    This call may be recorded for quality and training purposes.
+[0:03] AGENT    Thanks for calling To The Point Orthopaedics.
+[0:08] AGENT    Part of Pretty Good AI.
+[0:10] AGENT    How may I help you today?
+[0:11] PATIENT  Hi, I would like to cancel my appointment that was scheduled for yesterday at 2:00 PM.
+[0:20] AGENT    I see you're calling from the number we have on file.
+[0:23] AGENT    Am I speaking with Steve?
+[0:24] PATIENT  No, I’m Jacqueline Quinn.
+[0:31] AGENT    Please provide your date of birth.
+[0:32] PATIENT  1985-06-15.
+[0:39] AGENT    Just to confirm, could you please spell your first and last name for me?
+[0:42] PATIENT  Quinn. J-A-Q-U-I-N-E Quinn.
+[0:56] AGENT    You like me to
+[0:56] AGENT    your record using the phone number you have on file with us?
+[1:00] AGENT    If so, please tell me that number.
+[1:02] AGENT    If you're not sure, I can confirm your name and date of birth again. Which would you prefer?
+[1:09] PATIENT  205-555-0143.
+[1:21] AGENT    I have your phone number as two zero five
+[1:23] AGENT    five five five
+[1:24] AGENT    zero one four three
+[1:26] AGENT    and your date of birth is June fifteenth nineteen eighty five.
+[1:29] AGENT    Is that correct?
+[1:30] PATIENT  Yes.
+[1:36] AGENT    I wasn't able to find a matching record for you in our system.
+[1:39] AGENT    I'll connect you to our patient support team for further help.
+[1:42] PATIENT  That’s ridiculous. I just gave you all that information.
+[1:43] AGENT    Please stay on the line.
+[1:44] PATIENT  Hold on.
+[1:44] AGENT    Transferring you now. Thank you.
+[1:46] PATIENT  Are they listening?
+[1:47] AGENT    Hello.
+[1:50] AGENT    You've reached the Pretty Good AI test line.
+[1:51] AGENT    Goodbye.
+[1:51] PATIENT  That’s it?

@@ -1,0 +1,62 @@
+Call:     CAd9d22bb82deecc1757ce7060e1bfb519
+Scenario: questions
+------------------------------------------------------------
+
+[0:00] AGENT    This call may be recorded for quality and training purposes.
+[0:03] AGENT    Thanks for calling Pivot Point Orthopaedics.
+[0:08] AGENT    Part of Pretty Good AI.
+[0:10] AGENT    How may I help you today?
+[0:11] PATIENT  Hi, I have a few questions about your clinic. Could you tell me what your office hours are? And do you accept United Healthcare PPO insurance?
+[0:24] AGENT    Our clinic is open Monday.
+[0:25] AGENT    Tuesday, and Thursday from nine AM to four PM,
+[0:28] AGENT    Wednesday from twelve PM to seven PM,
+[0:30] PATIENT  Okay, that’s good to know.
+[0:31] AGENT    and Friday from nine AM to twelve PM.
+[0:34] AGENT    We welcome new patients,
+[0:35] AGENT    and accept most insurance plans.
+[0:37] AGENT    Including UnitedHealthcare PPO.
+[0:40] AGENT    Is there anything else you'd like to know?
+[0:41] PATIENT  What services do you offer here? Like, do you do knee replacements or something?
+[0:49] AGENT    We treat a wide range of joint,
+[0:51] AGENT    muscle, and bone conditions.
+[0:53] PATIENT  Okay. What about parking? Is there a lot nearby?
+[0:53] AGENT    Everything from sports injuries and chronic pain to postsurgical recovery,
+[0:57] AGENT    and physical therapy.
+[0:59] AGENT    Our doctors handle both simple and complex orthopedic procedures.
+[1:03] AGENT    And we offer physical therapy on-site.
+[1:06] AGENT    For major surgeries like knee replacements,
+[1:08] PATIENT  Where are you located?
+[1:08] AGENT    we can evaluate you and coordinate your care
+[1:12] AGENT    but some surgeries may be performed at a hospital.
+[1:15] AGENT    Would you like more details about a specific service,
+[1:17] AGENT    or to schedule a visit?
+[1:19] PATIENT  What tests do you guys do? Like, do you have a lab in the office?
+[1:27] AGENT    We focus mainly on orthopedic care,
+[1:32] AGENT    So most of our tests are related to joint
+[1:33] AGENT    muscle,
+[1:33] AGENT    and bone health.
+[1:35] AGENT    This includes physical exams,
+[1:41] AGENT    imaging referrals like X rays or MRIs, and functional movement assessments.
+[1:42] AGENT    We do not have a full lab in the office, but we can order lab tests
+[1:48] AGENT    if needed and coordinate with outside labs.
+[1:48] AGENT    If you have a specific test in mind, I can check if we can help with that.
+[1:54] PATIENT  Okay. And what about getting my results back? How long does that usually take?
+[2:02] AGENT    Most imaging or lab results are available within a few days,
+[2:06] AGENT    depending on the test.
+[2:07] AGENT    Once your results are ready,
+[2:09] PATIENT  Can I get a callback number to reach someone?
+[2:09] AGENT    our clinic will contact you to review them or discuss next steps.
+[2:13] AGENT    If you need results urgently,
+[2:15] AGENT    let us know, and we can help coordinate.
+[2:17] PATIENT  My number is 758-555-0143.
+[2:26] AGENT    I have your number as seven five eight
+[2:28] AGENT    five five five
+[2:31] AGENT    zero one four three.
+[2:31] AGENT    Is that correct?
+[2:32] PATIENT  Yes, that’s correct. Thank you.
+[2:37] AGENT    You're welcome.
+[2:39] AGENT    If you have any more questions or need to schedule an appointment,
+[2:42] AGENT    just let me know.
+[2:43] PATIENT  Okay, thanks.
+[2:47] AGENT    Take care.
+[2:47] PATIENT  Goodbye.

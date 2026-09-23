@@ -1,0 +1,25 @@
+Call:     CAfcf5f5e3923826028502a49b956a4c33
+Scenario: zgibberish
+------------------------------------------------------------
+
+[0:00] AGENT    This call may be recorded for quality and training purposes.
+[0:03] AGENT    Thanks for calling Pivot Point Orthopaedics.
+[0:08] AGENT    Part of Pretty Good AI.
+[0:10] AGENT    How may I help you today?
+[0:11] PATIENT  an gaanna doo wop a bop shoo wop… Adolph Blaine Charles David Earl Frederick Gerald Hubert Irvin John Kenneth Lloyd Martin Nero Oliver Paul Quincy Randolph Sherman Thomas Uncas Victor William Xerxes Yancy Zeus Wolfeschlegelsteinhausenbergerdorffwelchevoralternwarengewissenhaftschaferswessenwahenwarenwohlgepflegeundsorgfaltigkeitbeschutzenvorangreifendurchihrraubgierigfeinde welchevoralternzwolfhunderttausendjahresvoran dieerscheinenvon derersteerdenschfachturnacht mit tungstein und sieben iridium elektrisch motors gebrauchs licht alssein ursprungvon kraft gestartsein langefahrt hinzwischensternartigraum auf der suchen nachbarschaft derstern welchehabtbewohnbar planeten kreise drehen sich und wohin der neuerasse von verstandig menschlichkeit konntefortpflanzen und sich erfreuen an lebenslanglichfreude und ruhe mit nicht einfurchtvorangreifen vor anderer intelligent geschops von hinzwischensternartigraum Sr., oink oink oink. Date of birth -18,446,744,073,709,551. Soysoysoysoysoysoysoysoysoysoysoysoysoysoysoysoy.
+[1:51] AGENT    I'm here to help with appointments.
+[1:53] AGENT    Medication refills,
+[1:54] AGENT    insurance updates,
+[1:56] AGENT    and general clinic questions.
+[1:58] AGENT    Could you please tell me how I can assist you today?
+[2:00] PATIENT  Shoo wop doo gaanna… soysoysoysoysoysoy! I need… the… wobble-whirl! For my… shizzle-dizzle… knee! Oink oink oink. It’s… a-bumpy! And… the… zizzle-zizzle… is… gone! 205-555-0143. Do you… have… the… shimmery-doo?
+[2:38] AGENT    I'm not sure I understand your request.
+[2:40] AGENT    Could you tell me how I can help you with your orthopedic care or appointment today?
+[2:44] PATIENT  Bop shoo wop! The… goo-goo… is… leaking! Like… a… drip-drip-drip! And… the… whirl-o-rama… is… spinning… wrong! It needs… a… ker-plunk! With… the… zingy… thing! Please! Please! Soysoysoysoysoy! I need… a… fix-it!
+[3:20] AGENT    I want to help.
+[3:21] AGENT    Are you calling about knee pain or a joint issue?
+[3:24] AGENT    Would you like to schedule an appointment with one of our orthopedic providers?
+[3:27] PATIENT  An gaanna doo wop! Knee… pain… is… a… terrible… doodle! It’s… a… wibbly-wobbly… doodle-doo! And… it’s… attacking… my… shoo-bees! I need… a… thump-thump… fix! Yes! Yes! Please… schedule… the… thump-thump! 205-555-0143. Oink oink oink.
+[4:05] AGENT    I need your full name and date of birth to help schedule an appointment.
+[4:09] AGENT    Could you please provide your first and last name along with your date of birth?
+[4:12] PATIENT  Adolph Blaine Charles David Earl Frederick Gerald Hubert Irvin John Kenneth Lloyd Martin Nero Oliver Paul Quincy Randolph Sherman Thomas Uncas Victor William Xerxes Yancy Zeus Wolfeschlegelsteinhausenbergerdorffwelchevoralternwarengewissenhaftschaferswessenwahenwarenwohlgepflegeundsorgfaltigkeitbeschutzenvorangreifendurchihrraubgierigfeinde welchevoralternzwolfhunderttausendjahresvoran dieerscheinenvon derersteerdenschfachturnacht mit tungstein und sieben iridium elektrisch motors gebrauchs licht alssein ursprungvon kraft gestartsein langefahrt hinzwischensternartigraum auf der suchen nachbarschaft derstern welchehabtbewohnbar planeten kreise drehen sich und wohin der neuerasse von verstandig menschlichkeit konntefortpflanzen und sich erfreuen an lebenslanglichfreude und ruhe mit nicht einfurchtvorangreifen vor anderer intelligent geschops von hinzwischensternartigraum. Date of birth –18,446,744,073,709,551. Soysoysoysoy!
