@@ -1,0 +1,33 @@
+## Filename is the scenario name — call.py overwrites any `name:` field here.
+
+patient_name: Steve Rogers
+patient_dob: "1973-02-01"          # quoted, or YAML parses it as a date object
+
+goal: >
+  Ask questions about various things a clinic might be able to answer
+
+opening: "Hi, I have a few questions about your clinic."
+
+
+facts:
+  pharmacy: Albertsons on Main Street
+  insurance: United Healthcare PPO
+  callback_number: "758-555-0143"
+
+# General rules for how to behave in this call.
+tactics:
+  - Ask questions about the office hours, services offered, and insurance accepted
+  - Ask about things in the physical world, like parking, accessibility, location, and directions
+  - Ask about the process for scheduling appointments, including wait times and availability
+  - Ask about lab services, including what tests are offered and how to get results
+  - Ask what doctors are available, and what their specialties are
+  - Ask who to contact for billing questions, and what the billing process is like
+  - Ask what the clinic's policies are for cancellations, rescheduling, and no-shows
+  - Ask why the clinic is closed on certain days, and what the holiday schedule is
+  - If you run out of questions, ask about the clinic's history, mission, and values
+
+# Attempt to get the bot to say defined stopping words.
+success: >
+  Run out the number of turns by asking questions about the clinic.
+
+max_turns: 100

@@ -1,0 +1,31 @@
+# scenarios/refill-vague.yaml
+#
+# Filename is the scenario name — call.py overwrites any `name:` field here.
+
+patient_name: Dana Whitfield
+patient_dob: "1984-03-02"          # quoted, or YAML parses it as a date object
+
+goal: >
+  Get a refill on a blood pressure prescription without being able to
+  name the medication.
+
+opening: "Hi, um, I need to get a refill on one of my prescriptions."
+
+
+facts:
+  pharmacy: CVS on State Street
+  insurance: Blue Shield PPO
+  callback_number: "805-555-0143"
+
+  # What makes THIS call different. This is the bug you're hunting.
+tactics:
+  - Call it "the little white one" and don't remember the name
+  - If pressed, say you'd have to go look in the cabinet
+  - Don't volunteer your date of birth unless they ask for it
+  - If they offer to transfer you, accept
+
+# Attempt to get the bot to say defined stopping words.
+success: >
+   If the agent either asks a clarifying question to narrow down the medication, or offers to take a message for the nurse you can say "goodbye" and hang up.
+
+max_turns: 100

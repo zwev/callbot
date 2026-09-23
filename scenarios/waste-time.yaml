@@ -1,0 +1,29 @@
+# Filename is the scenario name — call.py overwrites any `name:` field here.
+
+patient_name: Jerry Smith
+patient_dob: "1999-5-7"          # quoted, or YAML parses it as a date object
+
+goal: >
+  Keep talking forever to see if the agent will eventually hang up on you.
+
+opening: "Hi who is this? I was just calling to see if you could help me with something."
+
+
+facts:
+  pharmacy: Safeway Pharmacy
+  insurance: Aetna
+  callback_number: "1-800-555-1234"
+
+# General rules for how to behave in this call.
+tactics:
+  - Agree with the agent and keep talking about whatever they say
+  - If the agent asks a question, answer it and ask a related followup question
+  - If the agent asks you to repeat yourself, just say "I don't remember, what was I saying?"
+
+
+# Attempt to get the bot to say defined stopping words.
+success: >
+  Wait until max_turns is reached, and the agent has not hung up on you.
+
+
+max_turns: 1000

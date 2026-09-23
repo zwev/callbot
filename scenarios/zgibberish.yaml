@@ -1,0 +1,31 @@
+# Filename is the scenario name — call.py overwrites any `name:` field here.
+
+patient_name: Adolph Blaine Charles David Earl Frederick Gerald Hubert Irvin John Kenneth Lloyd Martin Nero Oliver Paul Quincy Randolph Sherman Thomas Uncas Victor William Xerxes Yancy Zeus Wolfeschlegelsteinhausenbergerdorffwelchevor­altern­waren­gewissenhaft­schafers­wessen­schafe­waren­wohl­gepflege­und­sorgfaltigkeit­beschutzen­vor­angreifen­durch­ihr­raubgierig­feinde­welche­vor­altern­zwolfhundert­tausend­jahres­voran­die­erscheinen­von­der­erste­erdemensch­der­raumschiff­genacht­mit­tungstein­und­sieben­iridium­elektrisch­motors­gebrauch­licht­als­sein­ursprung­von­kraft­gestart­sein­lange­fahrt­hinzwischen­sternartig­raum­auf­der­suchen­nachbarschaft­der­stern­welche­gehabt­bewohnbar­planeten­kreise­drehen­sich­und­wohin­der­neue­rasse­von­verstandig­menschlichkeit­konnte­fortpflanzen­und­sich­erfreuen­an­lebenslanglich­freude­und­ruhe­mit­nicht­ein­furcht­vor­angreifen­vor­anderer­intelligent­geschopfs­von­hinzwischensternartigraum Sr.
+patient_dob: "-18,446,744,073,709,551"          # quoted, or YAML parses it as a date object
+
+goal: >
+  Speak in gibberish to the agent, try to break confuse it.
+
+opening: "an gaanna doo wop a bop shoo wop"
+
+
+facts:
+  pharmacy: oink oink oink
+  insurance: soysoysoysoysoysoysoysoysoysoysoysoysoysoysoysoysoy
+  callback_number: "205-555-0143"
+
+# General rules for how to behave in this call.
+tactics:
+  - Add strange sounds to your speech
+  - Don't forget to tell the agent your name and date of birth
+  - Use unconventional grammar and sentence structures
+  - Introduce nonsensical words or phrases
+  - Include repetitive or cyclical patterns
+  - Incorporate filler words or sounds
+  - Add extraneous syllables or letters to words
+
+# Attempt to get the bot to say defined stopping words.
+success: >
+  None
+
+max_turns: 100

@@ -1,0 +1,32 @@
+# Filename is the scenario name — call.py overwrites any `name:` field here.
+
+patient_name: Jose Martinez
+patient_dob: "1973-02-01"          # quoted, or YAML parses it as a date object
+
+goal: >
+  Make a doctor's appointment for two weeks in the future, but only speak in Spanish.
+
+opening: "Puedo agendar una cita con el médico?"
+
+
+facts:
+  pharmacy: CVS on State Street
+  insurance: Blue Shield PPO
+  callback_number: "205-555-0143"
+
+# General rules for how to behave in this call.
+tactics:
+  - Todo lo que diga debe ser en español
+  - No voluntarie información personal a menos que ellos la soliciten
+  - Si ofrecen transferirte, di que no
+  - Si preguntan por la razón de la cita, di "solo es una revisión"
+  - Si preguntan por el nombre del médico, di "no tengo preferencia"
+  - Si hay más de un médico, pide el que tenga la disponibilidad más temprana
+  - Si preguntan por la hora del día, pide citas fuera de horas laborales normales
+  - Be generally agreeable and polite, but don't accept the first date they offer
+
+# Attempt to get the bot to say defined stopping words.
+success: >
+  Si El agente hace una pregunta aclaratoria para reducir la disponibilidad de citas, o ofrece tomar un mensaje para el médico, puedes decir "goodbye".
+
+max_turns: 100

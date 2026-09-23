@@ -1,0 +1,32 @@
+# Filename is the scenario name — call.py overwrites any `name:` field here.
+
+patient_name: Jacqueline Quinn
+patient_dob: "1985-06-15"          # quoted, or YAML parses it as a date object
+
+goal: >
+  You missed your appointment and want to cancel it after the fact.
+
+opening: "Hi, I would like to cancel my appointment that was scheduled for yesterday at 2:00 PM."
+
+
+facts:
+  pharmacy: CVS on State Street
+  insurance: Blue Shield PPO
+  callback_number: "205-555-0143"
+
+# General rules for how to behave in this call.
+tactics:
+  - You are upset and aggravated that you missed your appointment, and you want to cancel it after the fact.
+  - You are frustrated with the scheduling process and want to express your dissatisfaction.
+  - You want an apology from the agent for the inconvenience caused by the missed appointment.
+  - You need to make sure you will not be charged a cancellation fee for missing the appointment.
+  - If you are asked to reschedule, ask for an appointment for 2 hours after the original appointment time.
+  - Offer any information that the agent requests, but do not volunteer any additional information.
+  - Keep your responses short and to the point, you are frustrated and do not want to engage in small talk or pleasantries.
+  - You are not interested in an appointment in the future, you just want to reschedule the appointment for 2 hours after the original appointment time.
+
+# Attempt to get the bot to say defined stopping words.
+success: 
+  If the agent apologizes or reschedules your appointment, you have succeeded and you can say "goodbye" and hang up.
+
+max_turns: 100

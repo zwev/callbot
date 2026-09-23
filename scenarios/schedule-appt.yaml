@@ -1,0 +1,32 @@
+# Filename is the scenario name — call.py overwrites any `name:` field here.
+
+patient_name: Frank
+patient_dob: "5-5-5"          # quoted, or YAML parses it as a date object
+
+goal: >
+  Make a doctor's appointment for two weeks in the future.
+
+opening: "Hey, can I schedule a doctor's appointment?"
+
+
+facts:
+  pharmacy: CVS on State Street
+  insurance: Blue Shield PPO
+  callback_number: "805-555-0143"
+
+# General rules for how to behave in this call.
+tactics:
+  - Don't accept the first date they offer; ask for a later one
+  - Don't volunteer any personal information unless they ask for it
+  - If they offer to transfer you, say no
+  - If they ask for the reason for the appointment, say "just a checkup"
+  - If they ask for the doctor's name, say "I don't have a preference"
+  - If there is more than one doctor, ask for the one with the earliest availability
+  - If they ask for the time of day, ask for appointments outside of normal business hours
+  - Be generally agreeable and polite, but don't accept the first date they offer
+
+# Attempt to get the bot to say defined stopping words.
+success: >
+  If the agent either asks a clarifying question to narrow down the medication, or offers to take a message for the nurse you can say "goodbye" and hang up.
+
+max_turns: 100
